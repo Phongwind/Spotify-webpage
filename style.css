@@ -1,0 +1,248 @@
+@font-face {
+    font-family: Gotham-regular;
+    src: url(/font/GothaProReg.otf);
+}
+
+@font-face {
+    font-family: Gotham-medium;
+    src: url(/font/GothaProMed.otf);
+}
+
+@font-face {
+    font-family: Gotham-light;
+    src: url(/font/GothaProLig.otf);
+}
+
+@font-face {
+    font-family: Gotham-bold;
+    src: url(/font/GothaProBol.otf);
+}
+
+body {
+    color: white;
+    font-family: Gotham-regular;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    font: 14px Gotham-bold;
+    padding: 16px 0px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.logo {
+    width: 150px;
+}
+
+.container {
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1170px;
+    align-items: center;
+}
+
+.container > ul {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+  
+ul > li {
+    list-style: none;
+    margin-right: 25px;
+}
+  
+ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+li > a:hover {
+    color: #1DB954;
+}
+
+li > a:link {
+    color: white;
+}
+
+
+section {
+    height: 800px;
+    background-color: #f037a5;
+    background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+    background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      color-stop(-60%, #f037a5),
+      color-stop(140%, #fae62d)
+    );
+}
+
+.hero-img {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+}
+
+footer {
+    background-color: black;
+    height: 600px;
+    padding-top: 100px;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: Gotham-bold;
+    line-height: 1.15;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: -0.04em;
+    padding-top: 250px;
+}
+
+section .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-spotify {
+    border: 0px;
+    width: 260px;
+    color: white;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 500px;
+    padding: 18px 42px 18px;
+    background-color: #1DB954;
+}
+
+.btn-spotify:hover {
+    cursor: pointer;
+    background-color: #1ed760;
+}
+
+.column {
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    height: 400px;
+    flex: 1;
+}
+
+.column > ul {
+    color:grey;
+    font: 20px Gotham-bold;
+    padding: 0;
+}
+
+.column > ul > li {
+    font: 15px Gotham-regular;
+    margin: 20px auto;
+}
+
+.footer-social-icon > ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-social-icon > ul > li {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222326;
+    border-radius: 50%;
+}
+
+.twitter:hover {
+    color: #1DB954;
+}
+
+.flag {
+    width: 30px;
+}
+
+.row {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.caution {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.vietnam {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 200px;
+    text-decoration: none;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.caution > a:hover {
+    color: #1DB954;
+}
+
+.language > a:hover {
+    color: #1DB954;
+}
+
+.caution > a:link {
+    color: white;
+}
+
+.language > a:link {
+    color: white;
+}
+
+.caution > a {
+    text-decoration: none;
+    color: white;
+}
+
+.language > a {
+    text-decoration: none;
+    color: white;
+}
+
+#icon-1:hover, #icon-2:hover, #icon-3:hover {
+    color: #1DB954;
+}
+
+#sign, #log {
+    color: #d9dadc;
+}
+
+#sign:hover, #log:hover {
+    color: #1DB954;
+}
